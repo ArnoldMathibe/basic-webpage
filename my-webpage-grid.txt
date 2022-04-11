@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Grid.css">
+    <title>Basic Webpage</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="row">
+                <div class="col-5 clearfix">
+                    <h1>Arnold Kgaladi </h1>
+                </div>
+                <div class="col-7 clearfix">
+                    <img src="images/pic1.jpg" alt="">
+                </div>
+                    
+            </div>
+        </div>
+        <div class="which-city clearfix">
+            <h2>Paris</h2>
+            <img src="images/paris.jpg" alt="">
+            <p>I want to visit paris, as it is one of the beautiful cities in the world, 
+                it is also one of the most romantic cities in Europe, many people even call it
+                "City OF Love" and also people love visiting it.</p>
+
+            <p>One of the most famous places to get a view is at the Eiffel Tower,
+                another thing i wish to do, is to get on top of the Eiffel Tower, and 
+                view the city all the way from the top, and I'd got on top using stairs</p>
+
+            <p>When I am done with Eiffel Tower, then I'll head on to climb Sacré-Cœur, 
+                I hear they say the view from there is better than the famous Eiffel Tower, 
+                so i would like to experience that.
+            </p>
+        </div>
+        <div class="foreign-language clearfix">
+            <h2>A Foreign Language I Want To Learn</h2>
+            <table>
+                <tr>
+                    <th>English</th>
+                    <th>Spanish</th>
+                </tr>
+                <tr>
+                    <td>Good day everyone I hope you're all well today well today</td>
+                    <td>buenos días a todos espero que estén todos bien hoy bien hoy</td>
+                </tr>
+                <tr>
+                    <td>I want to succeed in this technology industry, 
+                        and I want to succeed as a good Business Analyst</td>
+                    <td>Quiero tener éxito en esta industria de la tecnología, 
+                        y quiero tener éxito como un buen analista de negocios</td>
+                </tr>
+                <tr>
+                    <td>But first, I want to be a good developer, 
+                        then I'll move up the ladder onto being a Business Analyst</td>
+                    <td>Pero primero, quiero ser un buen desarrollador, 
+                        luego subiré la escalera para ser un analista de negocios.</td>
+                </tr>
+            </table>
+        </div>
+        <div class="historic-places clearfix">
+            <h2>Historic Places In Pretoria</h2>
+                <div class="places clearfix">
+                    <div class="union clearfix">
+                        <h3>Union Buildings</h3>
+                        <img src="historic-pics/union.jpg" alt="">
+                        <p>The Union Buildings are considered South Africa's Architectural masterpiece. 
+                            Designed and built by Herbert Baker and completed in 1913, the Union Buildings 
+                            houses the Administrative offices of the Union of South Africa. Today it is still 
+                            the official seat of government and houses the offices of the President of South Africa.</p>
+                    </div>
+                    <div class="church clearfix">
+                        <h3>Church Square</h3>
+                        <img src="historic-pics/church.jpg" alt="">
+                        <p>Church square is in the historic centre of Pretoria! The founder of Pretoria, 
+                            Marthinus Pretorius declared the square to be used as a church yard and market place!
+                             The square was surrounded with various church buildings that stood from 1856 to 1905.</p>
+                    </div>
+                    <div class="ditsong clearfix">
+                        <h3>Ditsong Museum</h3>
+                        <img src="historic-pics/ditsong.jpg" alt="">
+                        <p>DITSONG: MUSEUMS OF SOUTH AFRICA is an amalgamation of eight museums, seven in 
+                            Tshwane and one in Johannesburg. These museums have diverse collections covering 
+                            the fields of fauna and flora, palaeontology, military history, cultural history, 
+                            geology, anthropology and archaeology. The target audience for these museums are 
+                            children, youth, adults, students, tourists, researchers and the public in general.</p>
+                    </div>
+                </div>
+        </div>
+        <div class="footer">
+            <h4>arnoldtiisetso3@gmail.com</h4>
+            <h4>Mobile Number: 0662287212</h4>
+        </div>
+    </div>
+</body>
+</html>
