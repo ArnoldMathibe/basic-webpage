@@ -1,12 +1,10 @@
 body{
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     text-align:center;
 }
 .Menu{
-    text-align: center;
-    background-color: rgba(37, 241, 231, 0.808);
-    color: azure;
+    color: rgba(241, 221, 37, 0.959);
 }
 .header{
     background-image: url("https://afktravel.com/wp-content/uploads/2015/08/table-mountain-ocean.jpg");
@@ -69,7 +67,11 @@ tr:nth-child(even){
         width: 33%;
     }
     .Menu{
+       /* text-align: center;
+        display: flex;*/
         display: flex;
+        transform: translate(+34%);
+
     }
     .Menu li{
         list-style: none;
@@ -77,20 +79,21 @@ tr:nth-child(even){
         padding: 2em;
     }
     .Menu li{
-        list-style: none;
+        list-style-type: none;
+        
     }
     .Menu a{
         padding: 1em;
-        display: block;
         width: 8em;
     }
     .Menu a:hover{
-        background-color: rgb(107, 34, 241);
+        background-color: rgb(34, 165, 241);
+        color: azure;
     }
 }
 h1{
     margin: 3.5em;
-    color: aliceblue;
+    color: rgb(8, 11, 14);
 }
 h2{
     display: flex;

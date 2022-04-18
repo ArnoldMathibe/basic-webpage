@@ -1,5 +1,5 @@
 body{
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     text-align:center;
 }
@@ -47,6 +47,7 @@ img{
 }
 table, th, td{
     border: 2px solid rgb(3, 3, 3);
+    border-collapse: collapse;
 }
 tr:nth-child(even){
     background-color: aquamarine;
