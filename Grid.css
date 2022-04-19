@@ -39,8 +39,8 @@ body{
 }
 img{
     border-radius: 50px;
-    min-width: 10%;
-    max-width: 75%;
+    min-width: 8%;
+    max-width: 70%;
 
     float: left;
     padding: 0.6em;
@@ -52,11 +52,12 @@ table, th, td{
 tr:nth-child(even){
     background-color: aquamarine;
 }
-@media(min-width: 50em){
+
     .col-5{
-        float: left;
-        width: 45%;
+        float:left;
+        width: 53%;
     }
+    
     .union{
         float: left;
         width: 33%;
@@ -88,9 +89,9 @@ tr:nth-child(even){
     .Menu a:hover{
         background-color: rgb(107, 34, 241);
     }
-}
+
 h1{
-    margin: 3.5em;
+    margin: 3em;
     color: aliceblue;
 }
 h2{
